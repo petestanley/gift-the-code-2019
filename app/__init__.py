@@ -1,5 +1,6 @@
 # Import flask and template operators
 import flask
+import flask_cors
 import http
 
 from app.postings.posting_controller import postings
@@ -7,6 +8,7 @@ from app.members.member_controller import members
 
 # Define the WSGI application object
 app = flask.Flask(__name__)
+flask_cors.CORS(app)
 
 # Configurations
 app.config.from_object('config')

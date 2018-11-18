@@ -2,6 +2,7 @@ import http
 import random
 
 import flask
+from flask_cors import cross_origin
 
 
 members = flask.Blueprint('members', __name__, url_prefix='/members')
