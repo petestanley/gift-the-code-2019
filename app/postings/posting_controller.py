@@ -37,7 +37,7 @@ def post():
     response_body = {
         "id": transaction_id,
         "email": email,
-        "app": mopoints,
+        "mopoints": mopoints,
         "type": posting_type
     }
     response = flask.jsonify(response_body)
