@@ -12,7 +12,7 @@ def get(member_id):
     response_body = {
         "id": member_id,
         "email": 'john.smith@movember.com',
-        "app": 42,
+        "mopoints": 42,
         "firstName": "John",
         "lastName": "Smith"
     }
@@ -32,7 +32,7 @@ def post():
     response_body = {
         "id": member_id,
         "email": email,
-        "app": 0,
+        "mopoints": 0,
         "firstName": first_name,
         "lastName": last_name
     }
