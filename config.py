@@ -23,8 +23,8 @@ SECRET_KEY = "secret"
 PROJECT_ID = 'gift-the-code-api'
 
 DATA_BACKEND = 'cloudsql'
-CLOUDSQL_USER = 'root'
-CLOUDSQL_PASSWORD = 'points123'
+CLOUDSQL_USER = ''
+CLOUDSQL_PASSWORD = ''
 CLOUDSQL_DATABASE = 'app'
 CLOUDSQL_CONNECTION_NAME = 'gift-the-code-222817:us-central1:app-db'
 
